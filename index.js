@@ -8,6 +8,7 @@ class Polygon{
    return this.array.length
  }
  get perimeter() {
-   return this.array.reduce(total, element => total + element)
+   
+   return this.array.reduce(element => total + element)
  }
 }
