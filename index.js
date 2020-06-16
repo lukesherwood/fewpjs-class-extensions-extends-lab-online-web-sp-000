@@ -15,10 +15,10 @@ class Polygon{
 
 class Triangle extends Polygon{
   get isValid(){
-    const points = this.points;
-    const firstSideValid = points[0] + points[1] > points[2]
-    const secondSideValid = points[0] + points[2] > points[1]
-    const thirdSideValid = points[1] + points[2] > points[0]
+    const array = this.array;
+    const firstSideValid = array[0] + array[1] > array[2]
+    const secondSideValid = array[0] + array[2] > array[1]
+    const thirdSideValid = array[1] + array[2] > array[0]
 
     return firstSideValid && secondSideValid && thirdSideValid;
   }
