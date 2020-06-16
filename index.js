@@ -12,3 +12,7 @@ class Polygon{
    return this.array.reduce((total, element) => total + element)
  }
 }
+
+class Triangle extends Polygon {
+  
+}
