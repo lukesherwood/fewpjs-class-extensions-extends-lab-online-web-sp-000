@@ -23,3 +23,7 @@ class Triangle extends Polygon{
     return firstSideValid && secondSideValid && thirdSideValid;
   }
 }
+
+class Square extends Polygon {
+  
+}
