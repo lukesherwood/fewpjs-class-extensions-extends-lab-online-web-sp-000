@@ -14,5 +14,9 @@ class Polygon{
 }
 
 class Triangle extends Polygon {
-  
+  get isValid() {
+    if (array.length == 3) {
+      if (array.[0])
+    }
+  }
 }
