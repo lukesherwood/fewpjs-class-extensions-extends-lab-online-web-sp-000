@@ -34,7 +34,7 @@ class Square extends Polygon {
     }
   }
   get area() {
-    if (){
+    if (this.count == 4){
       return this.array[0] * this.array[1]
     }
   }
