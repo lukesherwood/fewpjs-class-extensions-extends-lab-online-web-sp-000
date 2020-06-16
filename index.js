@@ -30,4 +30,7 @@ class Square extends Polygon {
       return true
     }
   }
+  get area() {
+    return this.array[0] * this.array[1]
+  }
 }
